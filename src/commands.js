@@ -107,27 +107,14 @@ export const COMMANDS: CommandAndKeyType = {
         name: "Buildkite",
         url: "https://buildkite.com"
     },
-    we: {
+    wiki: {
         name: "Wikipedia English",
         url: "https://en.wikipedia.org",
         searchurl: "https://en.wikipedia.org/w/index.php?search=",
     },
-    wf: {
-        name: "Wikipedia French",
-        url: "https://fr.wikipedia.org",
-        searchurl: "https://fr.wikipedia.org/w/index.php?search=",
-    },
     hn: {
         name: "HackerNews Daily",
         url: "https://www.daemonology.net/hn-daily/",
-    },
-    adp: {
-        name: "ADP payroll",
-        url: "https://www.adp.com"
-    },
-    speed: {
-        name: "Cloudflare Speed Test",
-        url: "https://speed.cloudflare.com/"
     },
     gpt: {
         name: "Chat with GPT-3",
