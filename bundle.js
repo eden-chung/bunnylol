@@ -89,9 +89,9 @@ const COMMANDS = {
     url: "https://chat.openai.com"
   },
   DEFAULT: {
-    name: "Default - Duck duck go Search",
-    url: "https://duckduckgo.com/",
-    searchurl: "https://www.duckduckgo.com/?q="
+    name: "Default - Google Search",
+    url: "https://google.com/",
+    searchurl: "https://www.google.com/?q="
   }
 };//import {CLASSES} from './classes.js';
 
