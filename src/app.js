@@ -1,10 +1,10 @@
 // @flow strict
 
 import type { CommandType, CommandAndKeyType, CommandTypeUnormalized } from "./commands.js";
-//import type { ClassCommands, JoinOrDiscussType, ClassType } from "./classes.js";
+import type { ClassType } from "./classes.js";
 
 import { COMMANDS } from "./commands.js";
-//import { CLASSES } from "./classes.js";
+import { CLASSES } from "./classes.js";
 import { viewHelpPage } from "./help.js";
 
 
@@ -61,7 +61,7 @@ const bunnylol: (string) => Promise<boolean> = async function (
     const prefix: string = arr[0].endsWith(".")
       ? arr[0].substring(0, arr[0].length - 1).toLowerCase()
       : arr[0].toLowerCase();
-/*    if (prefix in CLASSES) {
+    if (prefix in CLASSES) {
       // $FlowFixMe - this is actually correct since the prefix is a key.
       const classData: ClassType = CLASSES[prefix];
       if (arr.length > 1) {
@@ -82,7 +82,7 @@ const bunnylol: (string) => Promise<boolean> = async function (
       await redirect(`${classData.url}`);
       return true;
     }
-*/
+
     if (prefix in parsedCommands) {
       // $FlowFixMe - this is actually correct since the prefix is a key.
       const command: CommandType = parsedCommands[prefix];

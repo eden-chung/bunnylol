@@ -1,4 +1,3 @@
-// j = join; d = discussion; c = UVA Collab; default to url; s = special
 export const CLASSES = {
   f1: {
     name: "CS 4501: F1/10 Autonomous Racing: Perception, Planning, and Control for Autonomous Driving",
