@@ -3,33 +3,30 @@
 // Type for the Data table containing the commands
 // Type for the header to display the commands
 export const COMMANDS = {
-  fb: {
-    name: "Facebook",
-    url: "https://facebook.com/",
-    searchurl: "https://www.facebook.com/search/top/?q="
+  barnard: {
+    name: "Barnard Student Planning",
+    url: "https://selfservice.barnard.edu/Student"
   },
-  m: {
-    name: "Messenger Desktop App",
-    url: "messenger://"
+  vergil: {
+    name: "Vergil",
+    url: "https://vergil.columbia.edu/"
   },
-  mw: {
-    name: "Messenger Web",
-    url: "https://www.messenger.com/"
-  },
-  wa: {
-    name: "WhatsApp Desktop App",
-    url: "whatsapp://"
-  },
-  waw: {
-    name: "WhatsApp Web",
-    url: "https://web.whatsapp.com/"
-  },
-  gm: {
+  gm0: {
     name: "Gmail",
     url: "https://mail.google.com/mail/u/0",
     searchurl: "https://mail.google.com/mail/u/"
   },
-  gd: {
+  gm1: {
+    name: "Gmail",
+    url: "https://mail.google.com/mail/u/1",
+    searchurl: "https://mail.google.com/mail/u/"
+  },
+  gm2: {
+    name: "Gmail",
+    url: "https://mail.google.com/mail/u/2",
+    searchurl: "https://mail.google.com/mail/u/"
+  },
+  drive: {
     name: "Google Drive",
     url: "https://drive.google.com/drive/u/0",
     searchurl: "https://drive.google.com/drive/u/"
@@ -61,20 +58,6 @@ export const COMMANDS = {
     name: "Google Calendar",
     url: "https://calendar.google.com/calendar/r"
   },
-  notion: {
-    name: "Notion",
-    url: "https://notion.so"
-    // have a look at https://github.com/ssleptsov/shoto/blob/main/background.js#L77 for search
-    // url
-  },
-  sg: {
-    name: "Sweet green",
-    url: "https://order.sweetgreen.com/san-mateo/menu"
-  },
-  bk: {
-    name: "Buildkite",
-    url: "https://buildkite.com"
-  },
   wiki: {
     name: "Wikipedia English",
     url: "https://en.wikipedia.org",
@@ -91,6 +74,6 @@ export const COMMANDS = {
   DEFAULT: {
     name: "Default - Google Search",
     url: "https://google.com/",
-    searchurl: "https://www.google.com/?q="
+    searchurl: "https://www.google.com/search?q="
   }
 };
