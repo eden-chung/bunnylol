@@ -1,7 +1,6 @@
 // @flow strict
 
 import type {CommandDataTableType, CommandDataTableHeaderType} from './commands.js';
-import type {ClassCommands} from './classes.js';
 
 import {COMMANDS} from './commands.js';
 import {CLASSES} from './classes.js';

@@ -11,20 +11,25 @@ export const COMMANDS = {
     name: "Vergil",
     url: "https://vergil.columbia.edu/"
   },
+  g: {
+    name: "Google",
+    url: "https://google.com/",
+    searchurl: "https://www.google.com/search?q="
+  },
   gm0: {
     name: "Gmail",
     url: "https://mail.google.com/mail/u/0",
-    searchurl: "https://mail.google.com/mail/u/"
+    searchurl: "https://mail.google.com/mail/u/0/#search/"
   },
   gm1: {
     name: "Gmail",
     url: "https://mail.google.com/mail/u/1",
-    searchurl: "https://mail.google.com/mail/u/"
+    searchurl: "https://mail.google.com/mail/u/1/#search/"
   },
   gm2: {
     name: "Gmail",
     url: "https://mail.google.com/mail/u/2",
-    searchurl: "https://mail.google.com/mail/u/"
+    searchurl: "https://mail.google.com/mail/u/2/#search/"
   },
   drive: {
     name: "Google Drive",
@@ -48,7 +53,8 @@ export const COMMANDS = {
   },
   l: {
     name: "Linkedin",
-    url: "https://linkedin.com/"
+    url: "https://linkedin.com/",
+    searchurl: "https://www.linkedin.com/search/results/all/?keywords="
   },
   vs: {
     name: "VS Code",
@@ -70,6 +76,14 @@ export const COMMANDS = {
   gpt: {
     name: "Chat with GPT-3",
     url: "https://chat.openai.com"
+  },
+  simplify: {
+    name: "Simplify New Grad",
+    url: "https://github.com/SimplifyJobs/New-Grad-Positions"
+  },
+  vansh: {
+    name: "Vansh New Grad",
+    url: "https://github.com/vanshb03/New-Grad-2026?tab=readme-ov-file"
   },
   DEFAULT: {
     name: "Default - Google Search",
