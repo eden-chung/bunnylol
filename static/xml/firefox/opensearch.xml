@@ -1,7 +1,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
 <ShortName>BunnyLOL</ShortName>
 <Description>Search BunnyLOL</Description>
-<Image height="16" width="16" type="image/x-icon">https://eden-chung.github.io/lunnybol/static/images/favicon.ico</Image>
+<Image height="16" width="16" type="image/x-icon">https://eden-chung.github.io/bunnylol/static/images/favicon.ico</Image>
 <InputEncoding>UTF-8</InputEncoding>
-<Url type="text/html" method="get" template="https://eden-chung.github.io/lunnybol/?search={searchTerms}"/>
+<Url type="text/html" method="get" template="https://eden-chung.github.io/bunnylol/?search={searchTerms}"/>
 </OpenSearchDescription>
