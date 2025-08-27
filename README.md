@@ -1,30 +1,9 @@
+<<<<<<< HEAD
 # Bunnylol
 
-While I was at Facebook, I heavily used the internally developed tool `lunnybol`. I found several other versions of `lunnybol` that required me to host a server. This version of `lunnybol` *does not* need to be hosted on a server.
+While I was at Facebook, I heavily used the internally developed tool `bunnylol`. I found several other versions of `bunnylol` that required me to host a server. This version of `bunnylol` *does not* need to be hosted on a server.
 
-Currently, this is hosted on [https://rithik.me/lunnybol](https://rithik.me/lunnybol). However, you can host it on any website that you would like (even on GitHub Pages). Since this is going to be your primary search engine for every new tab you open, I would suggest that you don't host it somewhere that may take a while to spin up the static page (like Heroku where your VM could go to sleep).
-
-A note: a lot of these commands are customized for me. It is probably most beneficial for you to fork this repo and add/remove commands so that it is optimized for commands you actually need.
-
-## Example Commands
-
-Command | Name | URL
---- | --- | ---
-fb | Facebook | [https://facebook.com/](https://facebook.com/)
-m | Messenger Desktop App | [messenger://](messenger://)
-mw | Messenger Web | [https://www.messenger.com/](https://www.messenger.com/)
-wa | WhatsApp Desktop App | [whatsapp://](whatsapp://)
-waw | WhatsApp Web | [https://web.whatsapp.com/](https://web.whatsapp.com/)
-gm | Gmail | [https://mail.google.com/mail/u/0](https://mail.google.com/mail/u/0)
-gd | Google Drive | [https://drive.google.com/drive/u/0](https://drive.google.com/drive/u/0)
-yt | YouTube | [https://youtube.com/](https://youtube.com/)
-gh | GitHub | [https://github.com/](https://github.com/)
-r | Reddit | [https://reddit.com/](https://reddit.com/)
-lk | Linkedin | [https://linkedin.com/](https://linkedin.com/)
-vs | VS Code | [vscode://](vscode://)
-hs | Hubspot | [https://app.hubspot.com/live-messages/](https://app.hubspot.com/live-messages/)
-cal | Google Calendar | [https://calendar.google.com/calendar/r](https://calendar.google.com/calendar/r)
-DEFAULT | Default - Duck duck go Search | [https://duckduckgo.com/](https://duckduckgo.com/)
+Currently, this is hosted on [https://eden-chung.github.io/bunnylol](https://eden-chung.github.io/bunnylol). However, you can host it on any website that you would like (even on GitHub Pages). Since this is going to be your primary search engine for every new tab you open, I would suggest that you don't host it somewhere that may take a while to spin up the static page (like Heroku where your VM could go to sleep).
 
 ## Setup
 
@@ -48,13 +27,13 @@ DEFAULT | Default - Duck duck go Search | [https://duckduckgo.com/](https://duck
 
 2. Click `Manage Search Engines`.
 
-3. Add a new search engine with the URL being `https://ekacnet.github.io/lunnybol?search=%s`. Of course, you should change the `rithik.me` part to your own domain.
+3. Add a new search engine with the URL being `https://eden-chung.github.io/bunnylol?search=%s`.
 
 4. Make this the default search engine.
 
 ### Safari
 
-Don't hurt yourself and pick something else seriously. But if you really want to you need an app like [AlfredApp](https://alfredapp.com) and configure a search with the value `https://ekacnet.github.io/lunnybol?search={search}` and a prefix of your liking like `lol`.
+Don't hurt yourself and pick something else seriously. But if you really want to you need an app like [AlfredApp](https://alfredapp.com) and configure a search with the value `https://eden-chung.github.io/bunnylol?search={search}` and a prefix of your liking like `lol`.
 
 ## Adding a command
 
