@@ -1,4 +1,4 @@
-# Rithik lunnybol
+# Bunnylol
 
 While I was at Facebook, I heavily used the internally developed tool `lunnybol`. I found several other versions of `lunnybol` that required me to host a server. This version of `lunnybol` *does not* need to be hosted on a server.
 

@@ -35,7 +35,7 @@ export type CommandDataTableHeaderType = {|
 
 export type CommandAndKeyType = {[string]: CommandType};
 export const COMMANDS: CommandAndKeyType = {
-    barnard: {
+    studentplanning: {
         name: "Barnard Student Planning",
         url: "https://selfservice.barnard.edu/Student"
     },
