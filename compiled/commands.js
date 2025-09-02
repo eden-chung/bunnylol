@@ -3,7 +3,7 @@
 // Type for the Data table containing the commands
 // Type for the header to display the commands
 export const COMMANDS = {
-  barnard: {
+  studentplanning: {
     name: "Barnard Student Planning",
     url: "https://selfservice.barnard.edu/Student"
   },
