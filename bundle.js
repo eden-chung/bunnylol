@@ -31,10 +31,15 @@ const COMMANDS = {
     url: "https://mail.google.com/mail/u/2",
     searchurl: "https://mail.google.com/mail/u/2/#search/"
   },
+  drive0: {
+    name: "Google Drive",
+    url: "https://drive.google.com/drive/u/0/home",
+    searchurl: "https://drive.google.com/drive/u/0/home"
+  },
   drive: {
     name: "Google Drive",
-    url: "https://drive.google.com/drive/u/0",
-    searchurl: "https://drive.google.com/drive/u/"
+    url: "https://drive.google.com/drive/u/1/home",
+    searchurl: "https://drive.google.com/drive/u/1/home"
   },
   yt: {
     name: "YouTube",
@@ -62,7 +67,7 @@ const COMMANDS = {
   },
   cal: {
     name: "Google Calendar",
-    url: "https://calendar.google.com/calendar/r"
+    url: "https://calendar.google.com/calendar/u/1/r"
   },
   wiki: {
     name: "Wikipedia English",
