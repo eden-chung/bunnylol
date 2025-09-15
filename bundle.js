@@ -90,6 +90,10 @@ const COMMANDS = {
     name: "Vansh New Grad",
     url: "https://github.com/vanshb03/New-Grad-2026?tab=readme-ov-file"
   },
+  chores: {
+    name: "Suite Chores Chart",
+    url: "https://docs.google.com/spreadsheets/d/15LjvIAsy9pUuNskz02ATme85xooIGQIEJhsDJp0JEGU/edit?gid=890439249#gid=890439249"
+  },
   DEFAULT: {
     name: "Default - Google Search",
     url: "https://google.com/",
